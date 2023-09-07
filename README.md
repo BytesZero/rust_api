@@ -40,6 +40,4 @@ docker run -p 8080:8080 rust_api
 ![测试中](imgs/img1.png)
 ![压测](imgs/img3.png)
 ![Rust](imgs/img4-Rust.png)
-![Rust](imgs/img4-Node.png)
-
-
+![Node](imgs/img4-Node.png)
