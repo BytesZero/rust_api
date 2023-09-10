@@ -43,3 +43,5 @@ docker run -p 8080:8080 rust_api
 |300线程|![Rust](imgs/img5-Rust-t300.png)|![NodeJS](imgs/img5-Node-t300.png)|![](imgs/img5-t300.png)|
 |500线程|![Rust](imgs/img5-Rust-t500.png)|![NodeJS](imgs/img5-Node-t500.png)|![](imgs/img5-t500.png)|
 |1000线程|![Rust](imgs/img5-Rust-t1000.png)|![NodeJS](imgs/img5-Node-t1000.png)|![](imgs/img5-t1000.png)|
+|2000线程|![Rust](imgs/img5-Rust-t2000.png)|![NodeJS](imgs/img5-Node-t2000.png)|![](imgs/img5-t2000.png)|
+|3000线程|![Rust](imgs/img5-Rust-t3000.png)|![NodeJS](imgs/img5-Node-t1000.png)|![](imgs/img5-t3000.png)|
