@@ -34,10 +34,12 @@ docker build -t rust_api .
 docker run -p 8080:8080 rust_api
 ```
 
-## Docker 测试结果
-
-![未测试](imgs/img2.png)
-![测试中](imgs/img1.png)
-![压测](imgs/img3.png)
-![Rust](imgs/img4-Rust.png)
-![Node](imgs/img4-Node.png)
+## 对比测试结果
+|测试项|Rust|NodeJS|请求量|
+|--|--|--|--|
+|启动|![Rust](imgs/img5-start-Rust.png)|![NodeJS](imgs/img5-start-Node.png)|没有请求|
+|10线程|![Rust](imgs/img5-Rust-t10.png)|![NodeJS](imgs/img5-Node-t10.png)|![](imgs/img5-t10.png)|
+|100线程|![Rust](imgs/img5-Rust-t100.png)|![NodeJS](imgs/img5-Node-t100.png)|![](imgs/img5-t100.png)|
+|300线程|![Rust](imgs/img5-Rust-t300.png)|![NodeJS](imgs/img5-Node-t300.png)|![](imgs/img5-t300.png)|
+|500线程|![Rust](imgs/img5-Rust-t500.png)|![NodeJS](imgs/img5-Node-t500.png)|![](imgs/img5-t500.png)|
+|1000线程|![Rust](imgs/img5-Rust-t1000.png)|![NodeJS](imgs/img5-Node-t1000.png)|![](imgs/img5-t1000.png)|
