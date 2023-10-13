@@ -34,3 +34,16 @@ services:
       - GF_USERS_ALLOW_SIGN_UP=false
     ports:
       - '3000:3000'
+  node_exporter:
+    image: prom/node-exporter
+    container_name: node_exporter
+    ports:
+      - "9100:9100"
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.ignored-mount-points=^/(sys|proc|dev|host|etc)($$|/)'
