@@ -22,7 +22,7 @@ WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/target/release/rust_api .
 
 # 暴露端口
-EXPOSE 8080
+EXPOSE 8081
 
 # 运行可执行文件
 CMD ["./rust_api"]
