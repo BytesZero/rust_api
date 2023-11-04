@@ -9,4 +9,3 @@ echo -e "\033[32minstall success\033[0m"
 ./regs.sh
 # 启动服务
 ./start.sh
-
