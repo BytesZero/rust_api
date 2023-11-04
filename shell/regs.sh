@@ -15,5 +15,5 @@ sudo systemctl daemon-reload
 # 启用服务
 sudo systemctl enable rust_api
 
-# 启动服务
-sudo systemctl start rust_api
+# 打印成功注册,使用绿色字体
+echo -e "\033[32mreg service success\033[0m"
