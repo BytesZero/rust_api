@@ -1,4 +1,7 @@
 #!/bin/bash
+# 拉最新的代码
 git pull
+# 构建
 cargo build --release
-./target/release/rust_api &
+# 启动服务
+sudo systemctl start rust_api
