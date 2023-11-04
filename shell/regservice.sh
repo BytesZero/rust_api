@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 源文件路径
-source_file="path_to_your_service/rust_api.service"
+source_file="rust_api.service"
 
 # 目标目录
 target_dir="/etc/systemd/system/"
