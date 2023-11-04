@@ -2,7 +2,7 @@
 Description=Rust API Service
 
 [Service]
-ExecStart=shell/start.sh
+ExecStart=/root/project/rust_api/shell/start.sh
 WorkingDirectory=/root/project/rust_api
 Restart=always
 User=root
