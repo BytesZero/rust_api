@@ -10,10 +10,10 @@ target_dir="/etc/systemd/system/"
 cp $source_file $target_dir
 
 # 重新加载 Systemd 配置
-systemctl daemon-reload
+sudo systemctl daemon-reload
 
 # 启用服务
-systemctl enable rust_api
+sudo systemctl enable rust_api
 
 # 启动服务
-systemctl start rust_api
+sudo systemctl start rust_api
