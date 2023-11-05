@@ -3,7 +3,6 @@ Description=Rust API Service
 
 [Service]
 ExecStart=/root/project/rust_api/target/release/rust_api
-ExecReload=/root/project/rust_api/target/release/rust_api
 WorkingDirectory=/root/project/rust_api
 Restart=always
 User=root
