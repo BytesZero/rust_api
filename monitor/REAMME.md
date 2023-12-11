@@ -33,5 +33,6 @@ http://prometheus:9090
 - 仪表盘
  - 主机监控：9276
  - docker监控：193
+ - 主机和 Docker 监控：10619
 
 
