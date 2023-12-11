@@ -15,7 +15,12 @@ grafana: http://localhost:9092
 
 #### prometheus
 
-查看 prometheus.yml 配置文件
+- 查看 prometheus.yml 配置文件
+- 更新 配置文件后，重启 prometheus 容器
+
+``` bash
+docker compose up -d
+```
 
 #### grafana
 
