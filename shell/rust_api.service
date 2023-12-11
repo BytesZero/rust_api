@@ -1,0 +1,12 @@
+[Unit]
+Description=Rust API Service
+
+[Service]
+ExecStart=/root/pro/rust_api/target/release/rust_api
+WorkingDirectory=/root/pro/rust_api
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
